@@ -14,9 +14,9 @@ body {
 
 .logo {
 	position: relative;
-	left: 42%;
-	padding-top: 10em;
+	padding-top: 2.8em;
 	padding-bottom: 4em;
+	text-align: center;
 }
   	
 .background {
@@ -112,7 +112,7 @@ input:placeholder-shown {
 
 
 @media all and (max-width: 960px) {
-  img {
+  body > img {
   	left: 50%;
   	margin-left: -480px;
   }
